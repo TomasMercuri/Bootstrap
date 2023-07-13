@@ -3,6 +3,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* SOBRE MI */
 .sobre-mi {
     padding: 5rem 0;
 }
@@ -10,4 +12,21 @@
 .sobre-mi .text-content{
     padding: 0 2rem;
     max-width: 800px;
+}
+
+
+/* EXPERIENCIA */
+.experiencia {
+    padding: 3rem 1rem;
+}
+
+.experiencia .card {
+    padding: 1rem;
+    border: none;
+    max-width: 30rem;
+}
+
+.experiencia .card i{
+    font-size: 60px;
+    padding: 1rem 2rem;
 }
