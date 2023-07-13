@@ -3,6 +3,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.hero {
-    padding: 3rem 0;
+.sobre-mi {
+    padding: 5rem 0;
+}
+
+.sobre-mi .text-content{
+    padding: 0 2rem;
+    max-width: 800px;
 }
