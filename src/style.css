@@ -99,3 +99,15 @@
 .carousel-item .text-container {
     max-width: 70%;
 }
+
+
+/* CONTACTO */
+.contacto .rectangulo {
+    margin-top: -2rem;
+    max-width: 1200px;
+    min-height: 150px;
+}
+
+.contacto .text-container p {
+    width: 55%;
+}
