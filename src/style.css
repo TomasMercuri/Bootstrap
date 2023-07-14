@@ -30,3 +30,57 @@
     font-size: 60px;
     padding: 1rem 2rem;
 }
+
+
+/* PROYECTOS */
+.proyectos {
+    padding: 3rem 0;
+}
+
+.proyectos .content-proyects {
+    padding: 2rem 1rem;
+}
+
+.proyectos .content-proyects article {
+    position: relative;
+}
+
+.proyectos .content-proyects img {
+    max-width: 320px;
+    object-fit: cover;
+}
+
+.proyectos .content-proyects i {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    display: none;
+    cursor: pointer;
+}
+
+.proyectos .content-proyects i.bi-laptop {
+    left: 200px;
+}
+
+.proyectos .content-proyects i.bi-github {
+    left: 120px;
+}
+
+
+.proyectos .content-proyects article:hover img{
+    transition: all 0.4s ease;
+    opacity: 0.4;
+}
+
+.proyectos .content-proyects article:hover i{
+    display: block;
+}
+
+.boton-ver-mas button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
